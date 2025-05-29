@@ -5,7 +5,7 @@
 - **Hint:** Use the `$match` stage.
 - **Expected Output (structure, `_id` will vary):**
 
-- <Pre>db.products.aggregate([{
+<Pre>db.products.aggregate([{
 $match:{
 category:"Electronics"
 
@@ -17,7 +17,8 @@ name:1,
 category:1,
 price:1,
 quantity:1}
-}]).pretty()</Pre>
+}]).pretty()
+</Pre>
 
 ![image](https://github.com/user-attachments/assets/82f7c119-3afe-48c3-8a15-8d72b62233ba)
 
